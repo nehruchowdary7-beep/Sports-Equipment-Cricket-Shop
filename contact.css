@@ -1,0 +1,13 @@
+﻿.store-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+}
+
+.map-visual-container {
+  background: radial-gradient(circle at center, #1E1E26 0%, #0D0D12 100%);
+  border: 1px solid var(--border-color);
+}
+
+.faq-card summary {
+  user-select: none;
+}
