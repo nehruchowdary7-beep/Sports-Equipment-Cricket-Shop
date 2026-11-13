@@ -1,0 +1,107 @@
+﻿.about-hero-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-feature-frame {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-xl);
+}
+
+.about-stat-tile {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.about-timeline-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-timeline-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #60A5FA, #2563EB);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.about-timeline-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(37, 99, 235, 0.6);
+  box-shadow: 0 20px 35px -10px rgba(37, 99, 235, 0.15), 0 10px 20px -5px rgba(0, 0, 0, 0.08);
+}
+
+.about-timeline-card:hover::before,
+.about-timeline-card.is-active::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.about-matrix-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-matrix-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #60A5FA, #2563EB);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.about-matrix-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(37, 99, 235, 0.5);
+  box-shadow: 0 16px 30px -10px rgba(37, 99, 235, 0.15);
+}
+
+.about-matrix-card:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.about-bento-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.about-bento-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(37, 99, 235, 0.6);
+  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.3), 0 0 20px 2px rgba(37, 99, 235, 0.15);
+}
+
+.about-bento-card img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.about-bento-card:hover img {
+  transform: scale(1.05);
+}

@@ -1,0 +1,754 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('sportx_theme');
+      if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball & Gym Teamwear Service Details | SportX Pro Shop</title>
+  <meta name="description" content="Custom basketball and gym teamwear packages for training facilities, high school squads, and strength clubs. Moisture-wicking tees, hoodies, composite balls, and conditioning kits.">
+  <link rel="icon" type="image/png" href="logo-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind-config.js"></script>
+  <link rel="stylesheet" href="common.css">
+</head>
+<body class="bg-[#FFFFFF] dark:bg-[#0D0D12] text-slate-900 dark:text-slate-100 antialiased selection:bg-blue-500 selection:text-white transition-colors duration-300">
+
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-white/95 dark:bg-[#0D0D12]/95 border-b border-slate-200 dark:border-[#272732] transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center group focus:outline-none flex-shrink-0 py-1" aria-label="SportX Home">
+          <img src="logo-light.png" alt="SportX Pro Athletic Gear" class="h-14 w-auto object-contain dark:hidden">
+          <img src="logo-dark.png" alt="SportX Pro Athletic Gear" class="h-14 w-auto object-contain hidden dark:block">
+        </a>
+        <nav class="hidden lg:flex items-center gap-1.5 xl:gap-2.5">
+          <div class="relative group">
+            <button type="button" class="nav-link px-3.5 py-2 text-sm font-semibold flex items-center gap-1.5 text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors focus:outline-none">
+              <span>Home</span>
+              <svg class="w-3.5 h-3.5 text-slate-400 group-hover:text-blue-500 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="absolute left-0 top-full pt-2 w-64 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 transform translate-y-1 group-hover:translate-y-0 z-50">
+              <div class="rounded-2xl p-2 bg-white dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 shadow-2xl backdrop-blur-xl space-y-1">
+                <a href="index.html" class="flex items-center gap-3 p-2.5 rounded-xl hover:bg-blue-500/10 transition-colors group/item">
+                  <div class="w-9 h-9 rounded-lg bg-blue-500/10 text-blue-500 group-hover/item:bg-blue-500 group-hover/item:text-white flex items-center justify-center flex-shrink-0 shadow-sm transition-colors">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                  </div>
+                  <div>
+                    <div class="text-xs font-bold text-slate-900 dark:text-white group-hover/item:text-blue-500 flex items-center gap-1.5">
+                      <span>Home 1</span>
+                      <span class="text-[10px] px-1.5 py-0.2 rounded bg-slate-100 dark:bg-slate-800 text-slate-500 font-semibold">Classic</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="home2.html" class="flex items-center gap-3 p-2.5 rounded-xl hover:bg-blue-500/10 transition-colors group/item">
+                  <div class="w-9 h-9 rounded-lg bg-blue-500/10 text-blue-500 group-hover/item:bg-blue-500 group-hover/item:text-white flex items-center justify-center flex-shrink-0 shadow-sm transition-colors">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  </div>
+                  <div>
+                    <div class="text-xs font-bold text-slate-900 dark:text-white group-hover/item:text-blue-500 flex items-center gap-1.5">
+                      <span>Home 2</span>
+                      <span class="text-[10px] px-1.5 py-0.2 rounded bg-blue-500 text-white font-semibold">PRO</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a href="about.html" class="nav-link px-3.5 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
+          <a href="brands.html" class="nav-link px-3.5 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Brands</a>
+          <a href="products.html" class="nav-link px-3.5 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Products</a>
+          <a href="team-orders.html" class="nav-link active px-3.5 py-2 text-sm font-semibold text-blue-600 dark:text-blue-400">Team Orders</a>
+          <a href="contact.html" class="nav-link px-3.5 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+        </nav>
+        <div class="flex items-center gap-2 sm:gap-3">
+          <button onclick="toggleDirection()" class="p-2 sm:p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:text-blue-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer border border-slate-200/80 dark:border-slate-800" title="Switch text direction (LTR / RTL)" aria-label="Toggle text direction">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+          </button>
+          <button onclick="toggleTheme()" class="p-2 sm:p-2.5 rounded-xl text-slate-600 dark:text-slate-300 hover:text-blue-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer border border-slate-200/80 dark:border-slate-800" title="Toggle dark / light mode" aria-label="Toggle theme">
+            <svg id="theme-toggle-icon" class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </button>
+          <button onclick="openCartDrawer()" class="px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-heading font-extrabold text-xs uppercase tracking-wider hover:bg-blue-600 dark:hover:bg-blue-500 dark:hover:text-white transition-all duration-300 shadow-md flex items-center gap-2" aria-label="Shopping Cart">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            <span class="hidden sm:inline">Kit Bag</span>
+            <span class="cart-count-badge hidden px-1.5 py-0.2 rounded-full bg-blue-600 text-white text-[10px] font-bold">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="py-12 lg:py-16 border-b border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-[#121218]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div class="lg:col-span-7 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold uppercase tracking-wider bg-blue-600/10 text-blue-600 dark:text-blue-400 border border-blue-600/25">
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse"></span>
+            <span>BUNDLE 04 &bull; BASKETBALL &amp; ATHLETIC GYM SQUAD GEAR</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl font-heading font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+            Basketball &amp; Gym Teamwear <br>
+            <span class="text-blue-600 dark:text-blue-400">&amp; Conditioning Outfits</span>
+          </h1>
+
+          <p class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-xl leading-relaxed">
+            Engineered teamwear for high school basketball squads, collegiate weight rooms, and athletic fitness centers. Outfits include lightweight moisture-wicking squad tees, custom-printed warm-up hoodies, composite match balls, and agility packs.
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="p-3.5 rounded-2xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-800">
+              <span class="block text-[11px] font-mono text-slate-400 uppercase">Min Order</span>
+              <span class="text-lg font-heading font-black text-blue-600 dark:text-blue-400">15 Sets</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-800">
+              <span class="block text-[11px] font-mono text-slate-400 uppercase">Starting Rate</span>
+              <span class="text-lg font-heading font-black text-slate-900 dark:text-white">$28 <span class="text-xs font-normal text-slate-400">/ set</span></span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-800">
+              <span class="block text-[11px] font-mono text-slate-400 uppercase">Turnaround</span>
+              <span class="text-lg font-heading font-black text-blue-600 dark:text-blue-400">5-7 Days</span>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-800">
+              <span class="block text-[11px] font-mono text-slate-400 uppercase">Sample Proof</span>
+              <span class="text-lg font-heading font-black text-slate-900 dark:text-white">Free Mockup</span>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center gap-3 pt-4">
+            <a href="team-orders.html#quote-section" class="w-full sm:w-auto px-7 py-3.5 rounded-full bg-slate-900 dark:bg-slate-800 hover:bg-blue-600 text-white font-heading font-black text-xs uppercase tracking-wider transition-all duration-300 shadow-xl inline-flex items-center justify-center gap-2 group">
+              <svg class="w-4 h-4 text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+              <span>Configure in Quote Calculator</span>
+            </a>
+            <a href="contact.html" class="w-full sm:w-auto px-7 py-3.5 rounded-xl border-2 border-slate-300 dark:border-slate-700 hover:border-blue-500 text-slate-800 dark:text-slate-100 hover:text-blue-500 font-heading font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center gap-2 bg-white dark:bg-slate-900/60">
+              <span>Speak to Teamwear Director</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl bg-slate-900 group">
+            <img src="brand-home-gym.jpg" alt="Heavy-Duty Ribstop Performance &amp; Court Specifications" class="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-5 left-5 right-5 text-white">
+              <span class="text-xs font-mono font-bold uppercase text-blue-400">Match-Ready Specification</span>
+              <h3 class="text-xl font-heading font-bold text-white mt-1">High-Impact Squad Conditioning</h3>
+              <p class="text-xs text-slate-300 mt-1 leading-relaxed">Comfortable stretch fleece with heavy-duty screen-printed roster numbers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white dark:bg-[#0D0D12]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-heading font-black text-slate-900 dark:text-white">Included in Every Hoops &amp; Gym Pack</h2>
+        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-2">Versatile gear designed for court transition, warm-up lines, and strength conditioning.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] space-y-3 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-500/60 transition-all duration-300 cursor-pointer">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center font-black group-hover:bg-blue-600 group-hover:text-white group-hover:scale-110 group-hover:shadow-md group-hover:shadow-blue-500/30 transition-all duration-300">01</div>
+          <h3 class="font-heading font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Moisture-Wicking Squad Tees</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed transition-colors duration-300">160 GSM Pro-Dry polyester with antimicrobial treatment, active raglan cut, and custom chest logo.</p>
+        </div>
+        <div class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] space-y-3 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-500/60 transition-all duration-300 cursor-pointer">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center font-black group-hover:bg-blue-600 group-hover:text-white group-hover:scale-110 group-hover:shadow-md group-hover:shadow-blue-500/30 transition-all duration-300">02</div>
+          <h3 class="font-heading font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Numbered Warm-Up Hoodies</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed transition-colors duration-300">Heavyweight 320 GSM brushed fleece hoodies with team monogram, kangaroo pocket, and lined hood.</p>
+        </div>
+        <div class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] space-y-3 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-500/60 transition-all duration-300 cursor-pointer">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center font-black group-hover:bg-blue-600 group-hover:text-white group-hover:scale-110 group-hover:shadow-md group-hover:shadow-blue-500/30 transition-all duration-300">03</div>
+          <h3 class="font-heading font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Composite Match Basketballs</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed transition-colors duration-300">Official Size 7 moisture-absorbing composite leather balls with deep channels and superior tactile grip.</p>
+        </div>
+        <div class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] space-y-3 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-500/60 transition-all duration-300 cursor-pointer">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center font-black group-hover:bg-blue-600 group-hover:text-white group-hover:scale-110 group-hover:shadow-md group-hover:shadow-blue-500/30 transition-all duration-300">04</div>
+          <h3 class="font-heading font-bold text-base text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Conditioning Agility Kit</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed transition-colors duration-300">Footwork ladder, reaction resistance bands, and high-tension speed tubes for gym training routines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 border-t border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-[#16161D]/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-6 space-y-4">
+          <span class="text-xs font-mono font-bold uppercase text-blue-600 dark:text-blue-400">Volume Savings</span>
+          <h2 class="text-2xl sm:text-3xl font-heading font-black text-slate-900 dark:text-white">Gym &amp; Hoops Pricing</h2>
+          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">Tiered team pricing for youth basketball leagues, athletic programs, and functional gym clubs.</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs">
+              <thead>
+                <tr class="border-b border-slate-200 dark:border-slate-800 text-slate-400 uppercase font-mono">
+                  <th class="py-3">Squad Size</th>
+                  <th class="py-3">Per Set Price</th>
+                  <th class="py-3">Savings</th>
+                  <th class="py-3">Included Bonus</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 dark:divide-slate-800 font-semibold text-slate-700 dark:text-slate-300">
+                <tr><td class="py-3">15 &ndash; 24 Sets</td><td class="py-3 font-bold text-slate-900 dark:text-white">$28 / kit</td><td class="py-3 text-slate-400">Standard Tier</td><td class="py-3 text-slate-500">Free 3D Mockup</td></tr>
+                <tr><td class="py-3">25 &ndash; 49 Sets</td><td class="py-3 font-bold text-blue-600 dark:text-blue-400">$24 / kit</td><td class="py-3 text-blue-500">Save 14%</td><td class="py-3 text-slate-500">Free Coach Warmup Tee</td></tr>
+                <tr><td class="py-3">50 &ndash; 99 Sets</td><td class="py-3 font-bold text-blue-600 dark:text-blue-400">$21 / kit</td><td class="py-3 text-blue-500">Save 25%</td><td class="py-3 text-slate-500">Free Squad Ball Carrier</td></tr>
+                <tr><td class="py-3">100+ Sets</td><td class="py-3 font-bold text-blue-600 dark:text-blue-400">$18 / kit</td><td class="py-3 text-blue-500">Save 36%</td><td class="py-3 text-slate-500">Free Custom Coach Windbreaker</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 p-8 rounded-3xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-800 shadow-xl space-y-4">
+          <h3 class="font-heading font-black text-xl text-slate-900 dark:text-white">Ready to Outfit Your Gym or Basketball Squad?</h3>
+          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            Select your squad sizes, logo artwork, and numbering preference.
+          </p>
+          <div class="pt-2 flex flex-col sm:flex-row gap-3">
+            <a href="team-orders.html#quote-section" class="flex-1 py-3.5 rounded-full bg-slate-900 dark:bg-slate-800 hover:bg-blue-600 text-white font-heading font-black text-xs uppercase tracking-wider text-center shadow-xl transition-all inline-flex items-center justify-center gap-2 group">
+              <svg class="w-4 h-4 text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+              <span>Launch Team Calculator</span>
+            </a>
+            <a href="team-orders.html" class="flex-1 py-3.5 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-blue-500 text-slate-800 dark:text-slate-200 font-heading font-bold text-xs uppercase tracking-wider text-center transition-all">
+              All 4 Bundles
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0D0D12]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold tracking-widest uppercase bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20 mb-3">
+          STRENGTH &amp; CONDITIONING LAB
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 dark:text-white tracking-tight uppercase">
+          Heavy-Duty Ribstop Performance &amp; Court Specifications
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-2">
+          220 GSM tear-resistant double knit, deep drop armholes, and Ag+ silver-ion antimicrobial defense built for barbell friction and varsity basketball.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="group p-6 rounded-2xl bg-slate-50 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] border border-slate-200 dark:border-slate-800 hover:border-blue-500/60 flex flex-col justify-between hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 cursor-pointer">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+            </div>
+            <h3 class="font-heading font-black text-lg text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Heavy-Duty Ring-Spun Ribstop Poly</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed mb-6 transition-colors duration-300">220 GSM tear-resistant double knit tailored for high-contact post play and high-repetition barbell knurling friction without pilling.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2 text-xs font-mono">
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Knit Density</span><span class="font-bold text-blue-600 dark:text-blue-400">220 GSM Double Weave</span></div>
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Knurl Abrasion</span><span class="font-bold text-blue-600 dark:text-blue-400">50,000 Martindale Cycles</span></div>
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Antimicrobial</span><span class="font-bold text-blue-600 dark:text-blue-400">Ag+ Silver-Ion Bonded</span></div>
+          </div>
+        </div>
+
+        <div class="group p-6 rounded-2xl bg-slate-50 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] border border-slate-200 dark:border-slate-800 hover:border-blue-500/60 flex flex-col justify-between hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 cursor-pointer">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <h3 class="font-heading font-black text-lg text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Deep-Cut Mobility &amp; Moisture Channels</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed mb-6 transition-colors duration-300">Generous drop armholes and extended split hemlines providing complete unrestricted range of motion for snatches, clean &amp; jerks, and jump shots.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2 text-xs font-mono">
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Armhole Clearance</span><span class="font-bold text-blue-600 dark:text-blue-400">360° Overhead Freedom</span></div>
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Hem Design</span><span class="font-bold text-blue-600 dark:text-blue-400">Side Vent Anti-Ride</span></div>
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Ribbing</span><span class="font-bold text-blue-600 dark:text-blue-400">Dual Elastic Collar</span></div>
+          </div>
+        </div>
+
+        <div class="group p-6 rounded-2xl bg-slate-50 dark:bg-[#16161D] hover:bg-white dark:hover:bg-[#1c1c26] border border-slate-200 dark:border-slate-800 hover:border-blue-500/60 flex flex-col justify-between hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 cursor-pointer">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-500 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="font-heading font-black text-lg text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">Indestructible Screen-Infused Graphics</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 leading-relaxed mb-6 transition-colors duration-300">High-elasticity plastisol and sublimation hybrid inks that stretch with the ribbed fabric without micro-fracturing or peeling.</p>
+          </div>
+          <div class="pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2 text-xs font-mono">
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Elasticity</span><span class="font-bold text-blue-600 dark:text-blue-400">40% Ink Flex Rebound</span></div>
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Bleacher Contrast</span><span class="font-bold text-blue-600 dark:text-blue-400">Full-Bleed 10-Inch Numbers</span></div>
+            <div class="flex justify-between items-center text-slate-600 dark:text-slate-300 p-1.5 rounded-lg group-hover:bg-slate-100/70 dark:group-hover:bg-slate-800/60 transition-colors duration-300"><span>Wash Guarantee</span><span class="font-bold text-blue-600 dark:text-blue-400">150+ Commercial Cycles</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16 border-t border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-[#121218]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold tracking-widest uppercase bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20 mb-3">
+          ACADEMY WORKFLOW
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 dark:text-white tracking-tight uppercase">
+          4-Step Customization &amp; Production Protocol
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-2">
+          From vector crest submission to express courier dispatch in under 10 business days.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="group p-5 rounded-2xl bg-white dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 relative hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1">
+          <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden mb-4 border border-slate-200 dark:border-slate-700/60 bg-slate-100 dark:bg-slate-900">
+            <img src="lining-way-of-wade.jpg" alt="Vector Crest & Roster" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-blue-600 text-white font-mono text-[10px] font-black tracking-widest uppercase shadow-md">
+              01 / INTAKE
+            </div>
+          </div>
+          <div>
+            <h3 class="font-heading font-black text-base text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-500 transition-colors">
+              Vector Crest & Roster
+            </h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              Submit varsity basketball logos, lifting club emblems, and athlete size rosters (Youth S through Adult 5XL). Custom lengths supported.
+            </p>
+          </div>
+        </div>        <div class="group p-5 rounded-2xl bg-white dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 relative hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1">
+          <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden mb-4 border border-slate-200 dark:border-slate-700/60 bg-slate-100 dark:bg-slate-900">
+            <img src="athlete-aarav.jpg" alt="3D Render & Swatches" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-blue-600 text-white font-mono text-[10px] font-black tracking-widest uppercase shadow-md">
+              02 / PROOFING
+            </div>
+          </div>
+          <div>
+            <h3 class="font-heading font-black text-base text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-500 transition-colors">
+              3D Render & Swatches
+            </h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              Full 360-degree digital proofing of reversible jerseys, tanks, and warm-up tracksuits. Physical fabric swatches sent for varsity approvals.
+            </p>
+          </div>
+        </div>        <div class="group p-5 rounded-2xl bg-white dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 relative hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1">
+          <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden mb-4 border border-slate-200 dark:border-slate-700/60 bg-slate-100 dark:bg-slate-900">
+            <img src="home2-sec3-card5.jpg" alt="Laser Cut & Sublimation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-blue-600 text-white font-mono text-[10px] font-black tracking-widest uppercase shadow-md">
+              03 / MANUFACTURE
+            </div>
+          </div>
+          <div>
+            <h3 class="font-heading font-black text-base text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-500 transition-colors">
+              Laser Cut & Sublimation
+            </h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              Heavyweight 220 GSM ribstop fabric laser-cut and sewn with reinforced bar-tack and a stright line stitching on all armholes and necklines.
+            </p>
+          </div>
+        </div>        <div class="group p-5 rounded-2xl bg-white dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 relative hover:border-blue-500/40 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1">
+          <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden mb-4 border border-slate-200 dark:border-slate-700/60 bg-slate-100 dark:bg-slate-900">
+            <img src="home2-sec3-card6.jpg" alt="Quality Check & Express" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-blue-600 text-white font-mono text-[10px] font-black tracking-widest uppercase shadow-md">
+              04 / DISPATCH
+            </div>
+          </div>
+          <div>
+            <h3 class="font-heading font-black text-base text-slate-900 dark:text-white uppercase mb-2 group-hover:text-blue-500 transition-colors">
+              Quality Check & Express
+            </h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              Outfits and equipment duffels are individually labeled with player the name and squad number for seamless and locker room outfitting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0D0D12]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="mb-16 p-8 lg:p-10 rounded-3xl bg-slate-50 dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-4">
+            <div class="relative rounded-2xl overflow-hidden aspect-[4/3] border border-slate-200 dark:border-slate-700 shadow-md">
+              <img src="carousel-athletics-track.jpg" alt="Metro Barbell &amp; Athletics Club Roster" class="w-full h-full object-cover">
+              <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-blue-600 text-white font-mono text-[10px] font-bold uppercase tracking-wider">
+                VERIFIED ATHLETICS CLUB
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-8 space-y-4">
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="px-2.5 py-1 rounded-md bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20 font-mono text-xs font-bold uppercase">CASE STUDY</span>
+              <span class="text-xs font-mono text-slate-400">85 Squad Uniforms &bull; 220 GSM Ribstop &bull; 150+ Wash Tested</span>
+            </div>
+            <h3 class="font-heading font-black text-xl sm:text-2xl text-slate-900 dark:text-white uppercase tracking-tight">
+              Metro Barbell &amp; Athletics Club Roster
+            </h3>
+            <blockquote class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic border-l-2 border-blue-500 pl-4 py-1">
+              "Our powerlifters and basketball athletes put gear through extreme stress. The reinforced armhole binding and knurl-resistant fabric make these the toughest custom uniforms we have ever worn in collegiate competition."
+            </blockquote>
+            <div class="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+              <span class="font-bold text-slate-900 dark:text-white">Coach Elena Rostova — Strength &amp; Conditioning Lead</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-3xl mx-auto mb-16">
+        <div class="text-center mb-8">
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold tracking-widest uppercase bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20 mb-2">
+            DIRECTOR INTEL
+          </span>
+          <h3 class="font-heading font-black text-xl sm:text-2xl text-slate-900 dark:text-white uppercase">
+            Frequently Asked Questions
+          </h3>
+        </div>
+        <div class="space-y-4">
+          <details class="group rounded-2xl bg-slate-50 dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 p-5 transition-all">
+            <summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sm text-slate-900 dark:text-white">
+              <span>What items are included in the Hoops &amp; Gym Squad Pack?</span>
+              <svg class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+              Each pack includes heavy-duty reversible basketball/gym tanks, mesh training shorts with deep phone/key zipper pockets, compression base layers, and heavy-duty gym duffel bags.
+            </p>
+          </details>
+
+          <details class="group rounded-2xl bg-slate-50 dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 p-5 transition-all">
+            <summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sm text-slate-900 dark:text-white">
+              <span>Can we order mixed sizes for different athlete body types?</span>
+              <svg class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+              Yes, sizes can be mixed freely from Youth S to Adult 5XL with custom length modifications (+2 inch or +4 inch jersey length) for tall basketball centers at no extra cost.
+            </p>
+          </details>
+
+          <details class="group rounded-2xl bg-slate-50 dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 p-5 transition-all">
+            <summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sm text-slate-900 dark:text-white">
+              <span>Is the fabric resistant to rough Olympic barbell knurling?</span>
+              <svg class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+              Yes, our 220 GSM ring-spun ribstop incorporates tightly spun synthetic polymers tested against aggressive steel barbell knurling without fraying or thread pulls.
+            </p>
+          </details>
+
+          <details class="group rounded-2xl bg-slate-50 dark:bg-[#16161D] border border-slate-200 dark:border-slate-800 p-5 transition-all">
+            <summary class="flex justify-between items-center cursor-pointer list-none font-bold text-sm text-slate-900 dark:text-white">
+              <span>Do you offer team lifting belts or custom gym banners?</span>
+              <svg class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <p class="mt-3 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+              Yes, custom embroidered lever belts, heavy-duty wrist wraps, and branded gym championship banners can be bundled directly with your squad apparel order.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="rounded-3xl bg-slate-900 dark:bg-[#16161D] border border-slate-800 p-8 sm:p-12 text-center text-white relative overflow-hidden shadow-2xl">
+        <div class="max-w-2xl mx-auto space-y-4 relative z-10">
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-bold tracking-widest uppercase bg-blue-500/20 text-blue-400 border border-blue-500/30">
+            FAST-TRACK ORDERING
+          </span>
+          <h3 class="font-heading font-black text-2xl sm:text-3xl uppercase tracking-tight text-white">
+            Ready to Equip Your Squad?
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-400 max-w-lg mx-auto leading-relaxed">
+            Get instant volume tiered pricing, custom 3D digital artwork, and dedicated kit manager support today.
+          </p>
+          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="team-orders.html#quote-section" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-slate-800 hover:bg-blue-600 text-white font-heading font-black text-xs uppercase tracking-wider transition-all duration-300 shadow-xl inline-flex items-center justify-center gap-2 group">
+              <svg class="w-4 h-4 text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+              <span>Configure in Quote Calculator</span>
+            </a>
+            <a href="tel:+910000000000" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-slate-800/80 hover:bg-slate-700 text-slate-200 font-heading font-bold text-xs uppercase tracking-wider transition-all duration-300 border border-slate-700 shadow-sm inline-flex items-center justify-center gap-2">
+              <span>Call +91 00000 00000</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0D0D12] pt-16 pb-12 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="footer-main-grid pb-12 border-b border-slate-200 dark:border-slate-800">
+
+        <div class="space-y-4 max-w-[280px]">
+          <div class="flex items-center">
+            <img src="logo-light.png" alt="SportX Pro Athletic Gear" class="h-14 w-auto object-contain dark:hidden">
+            <img src="logo-dark.png" alt="SportX Pro Athletic Gear" class="h-14 w-auto object-contain hidden dark:block">
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+            The premier athletic equipment destination. Handcrafted English willow cricket bats, official football cleats, tournament badminton rackets, and precision gym gear.
+          </p>
+
+          <div class="flex items-center gap-2.5 pt-1">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-white hover:bg-blue-500 hover:border-blue-500 transition-all shadow-sm group" title="Instagram">
+              <svg class="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-white hover:bg-blue-500 hover:border-blue-500 transition-all shadow-sm group" title="Facebook">
+              <svg class="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-white hover:bg-blue-500 hover:border-blue-500 transition-all shadow-sm group" title="X (Twitter)">
+              <svg class="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-white hover:bg-blue-500 hover:border-blue-500 transition-all shadow-sm group" title="YouTube">
+              <svg class="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Support" class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-white hover:bg-blue-500 hover:border-blue-500 transition-all shadow-sm group" title="WhatsApp">
+              <svg class="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.97.53 1.742.819 2.796.819 3.183 0 5.77-2.587 5.77-5.768.001-3.18-2.587-5.764-5.77-5.764zm0-2.172c4.418 0 8 3.582 8 8 0 1.547-.442 2.99-1.206 4.218l1.175 4.282-4.382-1.15c-1.18.704-2.556 1.114-4.029 1.114-4.418 0-8-3.582-8-8 0-4.418 3.582-8 8-8zm3.385 11.239c-.198.555-1.158 1.054-1.606 1.11-.433.054-.997.08-3.14-.805-2.735-1.13-4.502-3.896-4.639-4.077-.136-.182-1.107-1.474-1.107-2.81 0-1.336.7-1.993.948-2.251.248-.258.543-.323.725-.323.181 0 .362.002.52.01.171.008.4-.065.626.478.238.568.814 1.993.886 2.138.072.146.12.316.024.508-.096.191-.144.31-.287.48-.143.17-.3.38-.429.51-.143.143-.292.3-.126.584.167.284.743 1.226 1.593 1.984 1.094.975 2.016 1.278 2.302 1.42.286.143.453.119.62-.072.167-.191.715-.835.906-1.121.19-.286.381-.238.643-.143.262.095 1.668.787 1.954.93.286.143.477.214.548.334.072.119.072.691-.126 1.246z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-link-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About SportX</a></li>
+            <li><a href="brands.html">Official Brands</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="team-orders.html">Team Orders</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Sports Gear</h4>
+          <ul class="footer-link-list">
+            <li><a href="products.html?sport=cricket">Cricket English Willow</a></li>
+            <li><a href="products.html?sport=football">Football Cleats</a></li>
+            <li><a href="products.html?sport=badminton">Badminton Carbon</a></li>
+            <li><a href="products.html?sport=fitness">Olympic Barbells</a></li>
+            <li><a href="products.html">All 2026 Pro Drops</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Workshop Services</h4>
+          <ul class="footer-link-list">
+            <li><a href="contact.html">Bat Knocking Lab</a></li>
+            <li><a href="contact.html">Electronic Racket Stringing</a></li>
+            <li><a href="team-orders.html">Custom 3D Sublimation Kits</a></li>
+            <li><a href="contact.html">Bat Handle Regripping</a></li>
+            <li><a href="contact.html">Store Directions &amp; Hours</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact Details</h4>
+          <ul class="footer-link-list">
+            <li class="flex items-start gap-2.5 text-xs leading-snug">
+              <svg class="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span>104 Athletic Way, Bay Arena District, SF, CA 94107</span>
+            </li>
+            <li class="flex items-center gap-2.5 text-xs">
+              <svg class="w-4 h-4 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <a href="tel:18007767890" class="hover:text-blue-500 font-semibold transition-colors">+1 (000) 000-0000</a>
+            </li>
+            <li class="flex items-center gap-2.5 text-xs">
+              <svg class="w-4 h-4 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              <a href="mailto:support@sportxgear.com" class="hover:text-blue-500 font-semibold transition-colors">support@sportxgear.com</a>
+            </li>
+            <li class="flex items-start gap-2.5 text-xs text-slate-500 dark:text-slate-400">
+              <svg class="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Mon-Fri: 8AM-8PM PST<br>Sat-Sun: 9AM-6PM PST</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 dark:text-slate-400 gap-4">
+        <p>&copy; 2026 SportX Pro Athletic Gear. All rights reserved.</p>
+        <div class="flex items-center gap-6 sm:gap-8">
+          <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Privacy Policy</a>
+          <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Terms of Service</a>
+          <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Sitemap</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+<div id="cart-drawer" class="drawer-backdrop fixed inset-0 z-50 bg-black/70 backdrop-blur-sm">
+    <div class="drawer-content fixed inset-y-0 right-0 w-full max-w-md bg-white dark:bg-[#16161D] shadow-2xl flex flex-col justify-between border-l border-slate-200 dark:border-slate-800">
+      <div class="p-5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-blue-500/10 text-blue-500 flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          </div>
+          <h3 class="font-heading font-black text-lg text-slate-900 dark:text-white">Your Gear Bag</h3>
+        </div>
+        <button type="button" onclick="closeCartDrawer()" aria-label="Close bag" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white flex items-center justify-center transition-all duration-200 cursor-pointer border border-slate-200/80 dark:border-slate-700/60 shadow-sm active:scale-95">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="px-5 py-3 bg-slate-50 dark:bg-slate-900/60 border-b border-slate-200 dark:border-slate-800">
+        <div class="flex items-center justify-between text-xs mb-1.5">
+          <span id="free-shipping-text" class="text-slate-600 dark:text-slate-300">Add <span class="font-bold text-blue-500">$150</span> for Free Express Shipping</span>
+        </div>
+        <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+          <div id="free-shipping-progress" class="bg-blue-600 h-full rounded-full transition-all duration-500 w-0"></div>
+        </div>
+      </div>
+
+      <div class="flex-1 overflow-y-auto p-5">
+        <div id="cart-empty-state" class="text-center py-16 hidden">
+          <div class="w-16 h-16 rounded-full bg-blue-500/10 text-blue-500 flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          </div>
+          <h4 class="font-bold text-slate-800 dark:text-slate-100 text-base">Your Bag is Empty</h4>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1 max-w-xs mx-auto">Explore our top English willow bats, football boots, or badminton rackets.</p>
+        </div>
+
+        <div id="cart-filled-state" class="space-y-3">
+          <div id="cart-items-container" class="space-y-3"></div>
+          <div class="pt-4 mt-4 border-t border-slate-200 dark:border-slate-800">
+            <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1.5">Have a Promo Coupon?</label>
+            <div class="flex gap-2">
+              <input type="text" id="promo-code-input" placeholder="e.g. SPORTX10 or CHAMPION" class="flex-1 px-3 py-2 text-xs rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white uppercase font-bold focus:outline-none focus:border-blue-500">
+              <button onclick="applyPromoCode()" class="px-4 py-2 bg-slate-900 dark:bg-slate-800 text-white rounded-lg text-xs font-bold hover:bg-blue-600 transition-colors">Apply</button>
+            </div>
+            <span class="text-[10px] text-slate-400 mt-1 block">Tip: Use code <strong class="text-blue-500">SPORTX10</strong> for 10% off</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-5 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/40 space-y-3">
+        <div class="space-y-1.5 text-xs">
+          <div class="flex justify-between text-slate-500 dark:text-slate-400"><span>Subtotal</span><span id="cart-subtotal" class="font-bold text-slate-900 dark:text-white">$0</span></div>
+          <div class="flex justify-between text-slate-500 dark:text-slate-400"><span>Discount</span><span id="cart-discount" class="font-bold text-blue-500">$0</span></div>
+          <div class="flex justify-between text-sm font-extrabold text-slate-900 dark:text-white pt-2 border-t border-slate-200 dark:border-slate-800"><span>Estimated Total</span><span id="cart-total" class="text-blue-600 dark:text-blue-400 text-lg">$0</span></div>
+        </div>
+        <button onclick="openCheckoutModal()" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-heading font-extrabold uppercase tracking-wider shadow-blue-500/25 hover:opacity-95 transition-all">
+          Proceed To Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="quick-view-modal" class="modal-backdrop fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="modal-content relative w-full max-w-3xl rounded-3xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-700/80 shadow-2xl overflow-hidden max-h-[90vh] flex flex-col md:flex-row">
+      <button type="button" onclick="closeQuickView()" aria-label="Close preview" class="absolute top-4 right-4 z-10 w-9 h-9 rounded-xl bg-slate-900/80 hover:bg-blue-600 text-white flex items-center justify-center transition-all duration-200 cursor-pointer shadow-lg border border-white/20 active:scale-95">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="md:w-1/2 bg-slate-100 dark:bg-slate-900/80 p-6 flex items-center justify-center">
+        <img id="qv-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="Gear Preview" class="w-full h-72 md:h-96 object-cover rounded-2xl shadow-md">
+      </div>
+      <div class="md:w-1/2 p-6 flex flex-col justify-between overflow-y-auto">
+        <div>
+          <div class="flex items-center gap-2 text-xs font-bold">
+            <span id="qv-sport" class="text-blue-500 uppercase tracking-wider"></span>
+            <span class="text-slate-400">•</span>
+            <span id="qv-brand" class="text-slate-500 dark:text-slate-300"></span>
+          </div>
+          <h3 id="qv-title" class="text-xl font-heading font-extrabold text-slate-900 dark:text-white mt-1"></h3>
+          <div class="flex items-baseline gap-2 mt-2">
+            <span id="qv-price" class="text-2xl font-heading font-black text-blue-500"></span>
+            <span id="qv-original-price" class="text-xs text-slate-400 line-through"></span>
+          </div>
+          <div class="flex items-center gap-2 mt-2 text-xs text-slate-500">
+            <span id="qv-rating" class="font-bold text-blue-500"></span>
+            <span id="qv-reviews-count"></span>
+          </div>
+          <p id="qv-description" class="text-xs text-slate-600 dark:text-slate-300 mt-3 leading-relaxed"></p>
+          <div class="mt-4">
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5 uppercase">Select Weight / Size:</label>
+            <div id="qv-sizes-container" class="flex flex-wrap gap-2"></div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-200 dark:border-slate-800">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5">Technical Specifications</h4>
+            <div id="qv-specs-container" class="space-y-1"></div>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800">
+          <button onclick="addCurrentModalToCart()" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-heading font-extrabold uppercase tracking-wider shadow-blue-500/25 hover:opacity-95 transition-all">
+            Add to Gear Bag
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="wishlist-modal" class="modal-backdrop fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="modal-content relative w-full max-w-xl rounded-3xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-700 shadow-2xl p-6">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-blue-500/10 text-blue-500 flex items-center justify-center">
+            <svg class="w-4 h-4 fill-red-500" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/></svg>
+          </div>
+          <h3 class="font-heading font-black text-lg text-slate-900 dark:text-white">Your Saved Gear</h3>
+        </div>
+        <button type="button" onclick="closeWishlistModal()" aria-label="Close saved gear" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white flex items-center justify-center transition-all duration-200 cursor-pointer border border-slate-200/80 dark:border-slate-700/60 shadow-sm active:scale-95">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="wishlist-items-container" class="my-4 max-h-96 overflow-y-auto space-y-3"></div>
+    </div>
+  </div>
+
+  <div id="checkout-modal" class="modal-backdrop fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="modal-content relative w-full max-w-lg rounded-3xl bg-white dark:bg-[#1E1E26] border border-slate-200 dark:border-slate-700 shadow-2xl p-6 sm:p-8">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
+        <div>
+          <span class="text-[10px] uppercase font-bold text-blue-500">SportX Express Checkout</span>
+          <h3 class="font-heading font-black text-xl text-slate-900 dark:text-white">Order Finalization</h3>
+        </div>
+        <button type="button" onclick="closeCheckoutModal()" aria-label="Close checkout" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white flex items-center justify-center transition-all duration-200 cursor-pointer border border-slate-200/80 dark:border-slate-700/60 shadow-sm active:scale-95">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <form onsubmit="completeCheckoutSimulation(event)" class="mt-6 space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Full Shipping Name</label>
+          <input type="text" required value="David Miller" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white text-xs">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Delivery Street Address</label>
+          <input type="text" required value="104 Athletic Way, Sports Center" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white text-xs">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">City & State</label>
+            <input type="text" required value="San Francisco, CA" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white text-xs">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1">Postal Code</label>
+            <input type="text" required value="94107" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white text-xs">
+          </div>
+        </div>
+        <div class="pt-2">
+          <label class="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-2">Simulated Secure Payment</label>
+          <div class="p-3 rounded-xl border border-blue-500/40 bg-blue-500/5 flex items-center justify-between text-xs">
+            <span class="font-bold text-slate-800 dark:text-slate-200 inline-flex items-center gap-1.5"><svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg> Card ending in 4242 (Express Instant)</span>
+            <span class="text-blue-500 font-bold">256-bit SSL</span>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-100 dark:bg-slate-900 flex justify-between items-center text-sm">
+          <span class="font-bold text-slate-700 dark:text-slate-300">Total Charged:</span>
+          <span id="checkout-modal-total" class="font-heading font-black text-2xl text-blue-500">$0</span>
+        </div>
+        <button type="submit" class="w-full py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-heading font-extrabold uppercase tracking-wider shadow-blue-500/25 hover:opacity-95 transition-all">
+          Authorize & Place Order
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div id="toast-container"></div>
+
+  
+  <script src="data.js"></script>
+  <script src="common.js"></script>
+  <script src="service-gym.js"></script>
+</body>
+</html>
